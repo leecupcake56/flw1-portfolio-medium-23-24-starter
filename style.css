@@ -16,7 +16,7 @@
   }
   
   body {
-    background-color: #f9d60e;
+    background-color: white;
     padding: 20px;
     font-family: Arial;
   }
@@ -39,27 +39,25 @@
   
   .content {
     background-color: #272b30;
-    margin: 20px;
+    margin: 15px;
     padding: 10px;
     color: white;
-  }
-
-
-  .btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-    margin-right: 20px;
+   
   }
   
   nav {
-    background-color: #272b30;
-    padding: 10px;
-    border-radius: 10px;
+    background-color: pink;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    
   }
-  
+  .btn {
+    align-content:left;
+    border-radius: 15px;
+  }
+ 
   footer {
     background-color: #272b30;
     padding: 20px;
@@ -69,4 +67,12 @@
     border-radius: 10px;
   
   }
-  
+.socials {
+  margin: 5px;
+  background-color: transparent;
+}
+
+.socialdiv {
+  align-content: left;
+
+}
